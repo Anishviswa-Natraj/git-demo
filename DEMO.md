@@ -1,5 +1,7 @@
 #include<stdio.h>
+
 #include<string.h>
+
 #define ESC 27
 
 #define F1 59
