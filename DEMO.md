@@ -1,7 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-
-
 #define ESC 27
 
 #define F1 59
@@ -38,27 +36,18 @@ clrscr();
 gotoxy(20,5);
 
 printf("____Programming Made Easy_____");
-
 gotoxy(28,7);
-
 printf("Yours Welcome Here...........");
-
 gotoxy(28,9);
 printf("Press F1 For Login");
-
 gotoxy(28,11);
-
 printf("Press F2 For Signup");
-
 gotoxy(28,13);
-
 printf("Press ESC For Exit");
 gotoxy(20,15);
-
 printf("___********_____\n");
 getch();
 ch=getch();
-
 switch(ch)
 
 {
@@ -180,10 +169,7 @@ break;
   }
     getch();
   }
-
-
- 
- void signup(){
+void signup(){
    char c;
  
   fp=fopen("record.bin","ab");
